@@ -1,46 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Erica+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif
 }
 
 
 
 .main-div {
-  background-color: black;
   margin: 0;
 
 }
 
 .navbar {
+    background-color: black;
+color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: white;
+  background-color: white(153, 147, 147);
   align-items: center;
 }
 
 .navbar div {
   margin: 0.5rem 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar h5 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.navbar p {
+  font-size: 1.2rem;
+  font-weight: 200;
+
 }
 
 .links a{
   margin: 0 1rem;
-  color: black;
+  color: white;
   padding: 0.5rem 1.5rem;
-  border: 1px solid black;
-  transition: 0.5s;
+  border: 1px solid white;
+  border-radius: 2rem;
+  transition: 0.35s;
 }
 
 .links a:hover {
-  box-shadow:0 0 10px 5px #0ff,
-  inset 0 0 10px 2px #0ff;
+  box-shadow:0 0 10px 2px rgba(116, 234, 255, 0.699),
+  inset 0 0 10px 2px rgba(116, 234, 255, 0.699);
+  border: 1px solid rgb(0, 251, 255);
 }
 
 .homepage {
   background-image: url("/src/images/navbar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 65vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage h3 {
+      font-weight: 200;
+font-size: 1.4rem;
+color: white;
+}
+
+.homepage-one {
+  border: 1px solid rgb(0, 251, 255);
+    border-radius: 1rem;
+
+  box-shadow:0 0 10px 3px rgba(116, 234, 255, 0.699),
+  inset 0 0 10px 2px rgba(116, 234, 255, 0.699);
+    color: white;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.homepage-one h1 {
+  font-weight: 100;
+font-size: 3rem;
+}
+
+.homepage-one h2 {
+    font-weight: 100;
+font-size: 2.3rem;
 }

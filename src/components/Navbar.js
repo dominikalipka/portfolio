@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className='navbar'>
+    <div className="navbar">
       <div>
-        <p>Dominika Lipka - Web Developer</p>
+        <p>Dominika Lipka / </p>
+        <h5>/ Web Developer</h5>
       </div>
-      <div className='links'>
+      <div className="links">
         <Link to="/" style={{ textDecoration: "none" }}>
           Home
         </Link>{" "}
