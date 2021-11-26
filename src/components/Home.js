@@ -52,12 +52,12 @@ function Home() {
       <div className="homepage-three">
         <div>
           <h2>My skills</h2>
-          <div className="text-underline"></div>
         </div>
         <div className="skills">
           <div className="skill-container">
             <h3>FRONT-END</h3>
-            <img src={skill1} />
+            <div className="text-underline"></div>
+            <img src={skill1} alt="skill 1" />
             <ul>
               <li>React.js</li>
               <li>JavaScript (ES6, OOP, DOM)</li>
@@ -67,7 +67,8 @@ function Home() {
           </div>
           <div className="skill-container">
             <h3>BACK-END</h3>
-            <img src={skill2} />
+            <div className="text-underline"></div>
+            <img src={skill2} alt="skill 2" />
             <ul>
               <li>Node.js</li>
               <li>Express.js</li>
@@ -78,7 +79,8 @@ function Home() {
           </div>
           <div className="skill-container">
             <h3>SOFT SKILLS</h3>
-            <img src={skill3} />
+            <div className="text-underline"></div>
+            <img src={skill3} alt="skill 3" />
             <ul>
               <li>Team player</li>
               <li>Fast learner</li>

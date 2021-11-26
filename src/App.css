@@ -163,8 +163,10 @@ box-shadow: 0 0 5px 3px rgba(0, 251, 255, 0.577);
 }
 
 .homepage-three .text-underline {
-  margin: 1rem auto;
+  margin: 0 auto;
   width: 10vw;
+  border: 1px solid white;
+  box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.577);
 }
 
 .skills {
@@ -174,6 +176,7 @@ box-shadow: 0 0 5px 3px rgba(0, 251, 255, 0.577);
 }
 
 .skills img {
+  margin-top: 1.5rem;
   width: 10vw;
 }
 
