@@ -148,3 +148,50 @@ box-shadow: 0 0 5px 3px rgba(0, 251, 255, 0.577);
   flex-direction: row;
   justify-content: center;
 }
+
+.homepage-three {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 3rem;
+}
+
+.homepage-three h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.homepage-three .text-underline {
+  margin: 1rem auto;
+  width: 10vw;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skills img {
+  width: 10vw;
+}
+
+.skill-container {
+  margin-top: 3rem;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border: 0.5px solid white
+}
+
+.skill-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-container ul li {
+  padding: 0.2rem;
+}
