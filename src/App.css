@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Candal&family=Erica+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Candal&family=Erica+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif
+  font-family: "Montserrat", sans-serif;
 }
-
-
 
 .main-div {
   margin: 0;
-
 }
 
 .navbar {
-    background-color: black;
-color: white;
+  background-color: black;
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,10 +35,9 @@ color: white;
 .navbar p {
   font-size: 1.2rem;
   font-weight: 200;
-
 }
 
-.links a{
+.links a {
   margin: 0 1rem;
   color: white;
   padding: 0.5rem 1.5rem;
@@ -51,8 +47,8 @@ color: white;
 }
 
 .links a:hover {
-  box-shadow:0 0 10px 2px rgba(116, 234, 255, 0.699),
-  inset 0 0 10px 2px rgba(116, 234, 255, 0.699);
+  box-shadow: 0 0 10px 2px rgba(116, 234, 255, 0.699),
+    inset 0 0 10px 2px rgba(116, 234, 255, 0.699);
   border: 1px solid rgb(0, 251, 255);
 }
 
@@ -68,28 +64,87 @@ color: white;
 }
 
 .homepage h3 {
-      font-weight: 200;
-font-size: 1.4rem;
-color: white;
+  font-weight: 200;
+  font-size: 1.4rem;
+  color: white;
 }
 
 .homepage-one {
   border: 1px solid rgb(0, 251, 255);
-    border-radius: 1rem;
+  border-radius: 1rem;
 
-  box-shadow:0 0 10px 3px rgba(116, 234, 255, 0.699),
-  inset 0 0 10px 2px rgba(116, 234, 255, 0.699);
-    color: white;
+  box-shadow: 0 0 10px 3px rgba(116, 234, 255, 0.699),
+    inset 0 0 10px 2px rgba(116, 234, 255, 0.699);
+  color: white;
   width: 50vw;
   margin: 0 auto;
 }
 
 .homepage-one h1 {
   font-weight: 100;
-font-size: 3rem;
+  font-size: 3rem;
 }
 
 .homepage-one h2 {
-    font-weight: 100;
-font-size: 2.3rem;
+  font-weight: 100;
+  font-size: 2.3rem;
+}
+
+.homepage-two {
+  padding: 3rem;
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.homepage-two img {
+  height: 60vh;
+  box-shadow: rgba(46, 240, 237, 0.4) 5px 5px, rgba(46, 240, 237, 0.3) 10px 10px,
+    rgba(46, 240, 237, 0.2) 15px 15px, rgba(46, 240, 237, 0.1) 20px 20px,
+    rgba(46, 240, 237, 0.05) 25px 25px;
+}
+
+.about-me {
+  width: 50vw;
+  color: white;
+}
+
+.about-me h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.about-me p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-align: justify;}
+
+.text-underline {
+  border: 1px solid rgba(46, 240, 237, 1);
+  width: 20vw;
+  box-shadow: 0 0 5px 2px rgba(0, 251, 255, 0.577);
+}
+
+.cv {
+  border: 1px solid white;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  color: white;
+  box-shadow: rgba(46, 240, 237, 0.4) 4px 4px, rgba(46, 240, 237, 0.3) 8px 8px,
+    rgba(46, 240, 237, 0.2) 12px 12px;
+    transition: 0.3s;
+}
+
+.cv:hover {
+
+box-shadow: 0 0 5px 3px rgba(0, 251, 255, 0.577);
+}
+
+.cv-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
