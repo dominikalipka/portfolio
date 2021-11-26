@@ -36,8 +36,8 @@ function Home() {
             <p></p>
             <div className="cv-container">
               {" "}
-              <Link className="cv" to="/cv.pdf" target="_blank" download>
-                Download my CV
+              <Link className="cv" to="/cv.pdf" target="_blank">
+                Check out my CV
               </Link>
             </div>
           </div>
