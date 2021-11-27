@@ -198,3 +198,24 @@ box-shadow: 0 0 5px 3px rgba(0, 251, 255, 0.577);
 .skill-container ul li {
   padding: 0.2rem;
 }
+
+
+.projects-title {
+  background-image: url("/src/images/projects.jpg");
+  background-size: cover;
+  background-position:bottom;
+  padding: 3rem;
+}
+
+.projects-title h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.projects-title .text-underline {
+  margin: 0 auto;
+}
