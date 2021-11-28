@@ -19,7 +19,7 @@ function Projects() {
             href="https://juniors4seniors.netlify.app/"
             target="_blank"
           >
-             DEMO  
+            DEMO
           </a>
           <h4>Technologies used:</h4>
           <div className="technologies">
@@ -32,6 +32,22 @@ function Projects() {
             <p>Mongoose</p>
           </div>
           <h5>About the project:</h5>
+          <p>This website was created to help seniors in need.</p>
+          <p>
+            Sometimes seniors need material support ( clothes, cosmetics),
+            sometimes they need help (with buying food, going to the doctor),
+            sometimes all they need is a companion.
+          </p>
+            <p>If the user is not logged-in, they can read general information about the seniors, read information how the website works and search seniors by country.</p>
+          <p>
+            If the user is logged-in, they can read details about all the
+            seniors. If the user clicks "I want to help" in the profile of a
+            particular senior, they will be assigned as their helper, and they
+            will be able to edit their needs. The user can add new needs if the
+            senior would like help with something else. The user can edit a need
+            if something changed. The user can delete a need if the need has
+            been met.
+          </p>
         </div>
         <div className="project-screenshots">
           <img src={juniors4seniors1} />

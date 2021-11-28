@@ -285,6 +285,14 @@ a:hover {
   align-items: center;
 }
 
+.project-description p {
+  font-size: 1.1rem;
+  font-weight: 100;
+  text-align: justify;
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+
 .technologies {
   width: 20vw;
   text-align: center;
@@ -306,4 +314,5 @@ a:hover {
 .project-screenshots img {
   width: 50vw;
   margin: 1rem;
+
 }
