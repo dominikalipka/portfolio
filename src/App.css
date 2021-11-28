@@ -52,6 +52,36 @@ a:hover {
   border: 1px solid rgb(0, 251, 255);
 }
 
+.footer {
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem 2rem;
+  padding: 1rem 4rem;
+  border-radius: 3rem;
+}
+
+.footer a p {
+  font-size: 1.1rem;
+  font-weight: 900;
+  padding: 0 1rem;
+}
+
+.footer img {
+  width: 3vw;
+  height: 3vw;
+}
+
 .homepage {
   background-image: url("/src/images/navbar.jpg");
   background-repeat: no-repeat;
@@ -233,13 +263,11 @@ a:hover {
 }
 
 .project-container-1 {
-  background-color: rgb(6, 6, 6);
+  background-color: rgb(0, 0, 0);
   padding: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-bottom: 1px solid rgba(46, 240, 237, 1);
-
 }
 
 .project-container-1 h3,
@@ -267,14 +295,13 @@ a:hover {
 }
 
 .project-container-2 {
-  background-color: rgb(6, 6, 6);
+  background-color: rgb(14, 14, 14);
   padding: 3rem;
   text-align: end;
     display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-    border-bottom: 1px solid rgba(46, 240, 237, 1);
 }
 
 

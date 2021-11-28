@@ -105,6 +105,13 @@ function Projects() {
       <div className="project-container-1">
         <div className="project-description">
           <h3>plantin'</h3>
+          <a
+            className="links"
+            href="https://plantin.herokuapp.com"
+            target="_blank"
+          >
+            DEMO
+          </a>
           <h4>Technologies used:</h4>
           <div className="technologies">
             <p>JavaScript</p>
