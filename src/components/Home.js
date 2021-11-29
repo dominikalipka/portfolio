@@ -15,7 +15,7 @@ function Home() {
           <h2>and I build things.</h2>
         </div>
         <div>
-          <h3>Welcome to my portfolio!</h3>
+          <h3>I'm open for opportunities!</h3>
         </div>
       </div>
       <div className="homepage-two">
