@@ -59,7 +59,7 @@ function Home() {
             <div className="text-underline"></div>
             <img src={skill1} alt="skill 1" />
             <ul>
-              <li>React.js</li>
+              <li>React.js (classes & hooks)</li>
               <li>JavaScript (ES6, OOP, DOM)</li>
               <li>CSS</li>
               <li>HTML</li>

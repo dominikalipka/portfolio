@@ -1,4 +1,4 @@
-# 💻My portoflio
+# 💻  My portoflio
 
 ## 👉 [link to portfolio](https://d-lipka-portfolio.netlify.app) 👈
 
