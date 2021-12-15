@@ -10,8 +10,8 @@ body {
 }
 
 .navbar {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -27,33 +27,35 @@ body {
 }
 
 .navbar h5 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 900;
   margin: 0;
 }
 
 .navbar p {
-  font-size: 1.2rem;
-  font-weight: 200;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 
 a {
   margin: 0 1rem;
-  color: white;
+  color: black;
   padding: 0.5rem 1.5rem;
   border: 1px solid white;
   border-radius: 2rem;
   transition: 0.35s;
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 
 a:hover {
-  box-shadow: 0 0 10px 2px rgba(116, 234, 255, 0.699),
-    inset 0 0 10px 2px rgba(116, 234, 255, 0.699);
+  box-shadow: 0 0 10px 2px rgba(0, 251, 255, 0.699),
+    inset 0 0 10px 2px rgba(0, 251, 255, 0.365);
   border: 1px solid rgb(0, 251, 255);
 }
 
 .footer {
-  background-color: black;
+  background-color: white;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -61,13 +63,13 @@ a:hover {
 }
 
 .footer a {
-    text-decoration: none;
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   margin: 3rem 2rem;
-  padding: 1rem 4rem;
+  padding: 0.5rem 3rem;
   border-radius: 3rem;
 }
 
@@ -83,7 +85,7 @@ a:hover {
 }
 
 .homepage {
-  background-color: black;
+  background-color: white;
   height: 65vh;
   text-align: center;
   display: flex;
@@ -94,7 +96,7 @@ a:hover {
 .homepage h3 {
   font-weight: 200;
   font-size: 1.4rem;
-  color: white;
+  color: black;
 }
 
 .homepage-one {
@@ -103,27 +105,28 @@ a:hover {
 
   box-shadow: 0 0 10px 3px rgba(116, 234, 255, 0.699),
     inset 0 0 10px 2px rgba(116, 234, 255, 0.699);
-  color: white;
+  color: black;
   width: 50vw;
   margin: 0 auto;
 }
 
 .homepage-one h1 {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 3rem;
 }
 
 .homepage-one h2 {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 2.3rem;
 }
 
 .homepage-two {
   padding: 3rem;
-  background-color: black;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-bottom: 4rem;
 }
 
 .homepage-two img {
@@ -135,7 +138,7 @@ a:hover {
 
 .about-me {
   width: 50vw;
-  color: white;
+  color: black;
   padding: 1rem 2rem;
 }
 
@@ -148,7 +151,7 @@ a:hover {
 
 .about-me p {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 200;
   text-align: justify;
 }
 
@@ -159,10 +162,10 @@ a:hover {
 }
 
 .cv {
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 1rem 3rem;
   text-decoration: none;
-  color: white;
+  color: black;
   box-shadow: rgba(46, 240, 237, 0.4) 4px 4px, rgba(46, 240, 237, 0.3) 8px 8px,
     rgba(46, 240, 237, 0.2) 12px 12px;
   transition: 0.3s;
@@ -180,8 +183,8 @@ a:hover {
 }
 
 .homepage-three {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   text-align: center;
   padding: 5rem 3rem;
 }
@@ -195,7 +198,7 @@ a:hover {
 .homepage-three .text-underline {
   margin: 0 auto;
   width: 10vw;
-  border: 1px solid white;
+  border: 1px solid black;
   box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.577);
 }
 
@@ -217,7 +220,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  border: 0.5px solid white;
+  border: 0.5px solid black;
 }
 
 .skill-container ul {
@@ -230,7 +233,7 @@ a:hover {
 }
 
 .projects {
-  color: white;
+  color: black;
 }
 
 .projects a {
@@ -242,7 +245,7 @@ a:hover {
 }
 
 .projects-title {
-background-color: black;
+  background-color: white;
   padding: 3rem;
 }
 
@@ -250,7 +253,7 @@ background-color: black;
   margin: 0;
   margin-bottom: 1rem;
   text-align: center;
-  color: white;
+  color: black;
   font-size: 3rem;
   font-weight: 900;
 }
@@ -260,7 +263,7 @@ background-color: black;
 }
 
 .project-container-1 {
-  background-color: rgb(0, 0, 0);
+  background-color: white;
   padding: 5rem 3rem;
   display: flex;
   flex-direction: row;
@@ -280,27 +283,26 @@ background-color: black;
 
 .project-container-1 h4,
 .project-container-2 h4 {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
 .project-container-1 h5,
 .project-container-2 h5 {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.5rem;
 }
 
 .project-container-2 {
-  background-color: black;
+  background-color: white;
   padding: 5rem 3rem;
   text-align: end;
-    display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
-
 
 .project-container-2 h3,
 .project-container-2 h5 {
@@ -316,11 +318,11 @@ background-color: black;
 .project-description p,
 .project-description ul,
 .project-description li {
-  font-size: 1.1rem;
-  font-weight: 100;
+  font-size: 1.2rem;
+  font-weight: 200;
   text-align: justify;
   margin: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
 }
 
 .technologies {
@@ -346,12 +348,11 @@ background-color: black;
 .project-screenshots img {
   width: 50vw;
   margin: 1rem;
-
 }
 
 .contact {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -361,11 +362,11 @@ background-color: black;
   margin-top: 4rem;
   margin-left: 3rem;
   font-size: 2.5rem;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .contact-data {
-  background-color: black;
+  background-color: white;
   margin: 3rem;
   display: flex;
   flex-direction: row;
@@ -374,9 +375,8 @@ background-color: black;
 .contact-data div {
   margin-right: 2rem;
   font-size: 1.3rem;
-  font-weight: 100;
+  font-weight: 200;
 }
-
 
 @media (max-width: 55rem) {
   .navbar {
@@ -386,7 +386,7 @@ background-color: black;
 
   .footer a {
     margin: 2rem 1rem;
-  padding: 0.5rem 2rem;
+    padding: 0.5rem 2rem;
   }
 
   .homepage-two {
