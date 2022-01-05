@@ -60,6 +60,7 @@ function Home() {
             <img src={skill1} alt="skill 1" />
             <ul>
               <li>React.js (classes & hooks)</li>
+              <li>Redux & Redux Toolkit</li>
               <li>JavaScript (ES6, OOP, DOM)</li>
               <li>CSS</li>
               <li>HTML</li>
